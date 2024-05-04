@@ -11,6 +11,12 @@ public class Main {
         byte n7 = 5;
         char character = 'A';
 
+        // Explicit type declaration
+        String text = "Hello World";
+
+        // Implicit type inference using var. Here the lag will get the type based on the var value.
+        var texTwo = "Hello World";
+
 
         System.out.println("Type of primitive data");
     }
