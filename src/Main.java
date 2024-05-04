@@ -1,14 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        // Types of Primitives Data. (Numbers) byte, short, int, long;
-        byte n1 = 127;
-        short n2 = 32767;
-        int n3 = 2147483647;
-        long n4 = 922337203;
-        char justChar = 4;
+        int n1 = 10;
+        short n2 = 1000;
+        long n3 = 100000000L;
+        long n4 = 100000000;
 
-        byte age = 26;
+        float n5 = 3.14f;
+        double n6 = 3.14;
 
-        System.out.println("Hello world!" + " " + age);
+        byte n7 = 5;
+        char character = 'A';
+
+
+        System.out.println("Type of primitive data");
     }
 }
